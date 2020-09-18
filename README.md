@@ -3,7 +3,7 @@ BASH script to create HTML table from `|`-delimited data
 
 I prefer to hand-code web pages in HTML, but the tables are a pain to encode.  I wrote this script as a quick 'n dirty way to quickly format a HTML table from `|`-delimited data -- followed by a bit of manual tweaking per desired effects.
 
-See the script for details, comments.
+See the script for details, comments -- e.g. formatting tips ...
 
 ```bash
 [victoria@victoria ~]$ cat /tmp/table
@@ -13,7 +13,6 @@ See the script for details, comments.
 2015|$262,113|$360,003|$(97,890)|$58,934|$56,076
 2014|$427,201|$376,932|$50,269|$159,850|$153,966
 2013|$163,472|$58,875|$104,597|$111,872|$104,597
-Net Assets = Total Assets minus Total Liabilities
 
 [victoria@victoria ~]$ ttt /tmp/table
 Usage: /mnt/Vancouver/programming/scripts/text2table.sh input (file or dir)
@@ -35,4 +34,4 @@ Usage: /mnt/Vancouver/programming/scripts/text2table.sh input (file or dir)
 
 **Formatted result** (I manually edited the header and footer):
 
-![text2table-demo-output.png(https://buriedtruth.com/files/text2table-demo-output.png)
+![text2table-demo-output.png](https://buriedtruth.com/files/text2table-demo-output.png)
