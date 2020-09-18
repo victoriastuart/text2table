@@ -14,6 +14,7 @@ See the script for details, comments.
 2014|$427,201|$376,932|$50,269|$159,850|$153,966
 2013|$163,472|$58,875|$104,597|$111,872|$104,597
 Net Assets = Total Assets minus Total Liabilities
+
 [victoria@victoria ~]$ ttt /tmp/table
 Usage: /mnt/Vancouver/programming/scripts/text2table.sh input (file or dir)
 
@@ -32,4 +33,6 @@ Usage: /mnt/Vancouver/programming/scripts/text2table.sh input (file or dir)
 </table>[victoria@victoria ~]$
 ```
 
+**Formatted result** (I manually edited the header and footer):
 
+![text2table-demo-output.png(https://buriedtruth.com/files/text2table-demo-output.png)
