@@ -7,8 +7,9 @@ See the script for details, comments -- e.g. formatting tips ...
 
 **Usage**
 
+* Download script; make it executable (permissions).
 * `|`-delimited table in tmp file, e.g. `/tmp/table` (but not `/tmp/t2t_table`, which is used by the script)
-* set your `~/.bashrc` alias (`ttt`)
+* set your `~/.bashrc` alias (`ttt`) (path to script)
 * In terminal, `ttt /tmp/table`
 * Copy and edit output: # of columns; header; footer
 
