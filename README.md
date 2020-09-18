@@ -5,6 +5,13 @@ I prefer to hand-code web pages in HTML, but the tables are a pain to encode.  I
 
 See the script for details, comments -- e.g. formatting tips ...
 
+**Usage**
+
+* `|`-delimited table in tmp file, e.g. `/tmp/table` (but not `/tmp/t2t_table`, which is used by the script)
+* set your `~/.bashrc` alias (`ttt`)
+* In terminal, `ttt /tmp/table`
+* Copy and edit output: # of columns; header; footer
+
 ```bash
 [victoria@victoria ~]$ cat /tmp/table
 <b>Year</b>|<b>Total Revenue</b>|<b>Total Expenses</b>|<b>Revenue-Expenses</b>|<b>Total Assets</b>|<b>Net Assets</b>
