@@ -42,4 +42,4 @@ Usage: /mnt/Vancouver/programming/scripts/text2table.sh input (file or dir)
 
 **Formatted result** (I manually edited: header text; footer text; number of columns (`colspan`):
 
-![text2table-demo-output.png](https://buriedtruth.com/files/text2table-demo-output.png)
+![text2table-demo_output.png](https://buriedtruth.com/files/text2table-demo_output.png)
