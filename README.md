@@ -40,6 +40,6 @@ Usage: /mnt/Vancouver/programming/scripts/text2table.sh input (file or dir)
 </table>[victoria@victoria ~]$
 ```
 
-**Formatted result** (I manually edited the header and footer):
+**Formatted result** (I manually edited: header; footer; `colspan`: number of columns):
 
 ![text2table-demo-output.png](https://buriedtruth.com/files/text2table-demo-output.png)
