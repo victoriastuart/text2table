@@ -42,4 +42,29 @@ Usage: /mnt/Vancouver/programming/scripts/text2table.sh input (file or dir)
 
 **Formatted result** (I manually edited: header text; footer text; number of columns (`colspan`):
 
-![text2table-demo_output.png](https://buriedtruth.com/files/text2table-demo_output.png)
+![text2table-demo_output.png](https://buriedtruth.com/files/text2table-demo_output-02.png)
+
+**Conditional formatting** is via this `style` element in the `<head>` section of the web page.
+
+```html
+<HEAD>
+  <style>
+    td, th {
+      border: 1px solid darkgrey;
+    }
+    td {
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      border: 1px solid darkgrey;
+    }
+    table {
+      margin-left: 20px;
+      border: 1px solid darkgrey;
+      border-collapse: collapse;
+    }
+    tr:nth-child(even) {background-color: #f2f2f2;}
+  </style>
+</HEAD>
+```
